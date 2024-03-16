@@ -1,0 +1,72 @@
+<html>
+<head>
+<title>Megan's Test Run</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+	color:Red;
+	background-color: yellow;
+}
+.header {
+  background-color: red;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+.footer {
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+}
+h1 {
+	font-family: Arial, sans-serif;
+	font-size: 32px;
+	color: Black;
+}
+h3 {
+	font-family: Arial, sans-serif;
+	font-size: 24px;
+	color: Black;
+}
+</style>
+</head>
+<body>
+
+<div Class="header">
+<h1>This is cool!</h1>
+<h3>Lets get this party started :D</h3>
+</div>
+<div Class="footer">
+<p>This is a paragraph of useless information. mostly just to show formatting differences.</p>
+</div>
+<p> jquery - javascript library </p>
+<p>baseline tools: code editor, interactive library (Jqry), wordpress (CMS), framework system(bootstrap)</p>
+<p>WebStandards W3</p>
+<p> modern.ie - test site in explorer </p>
+<p> WAMP server - WAMPServer.com</p>
+
+<p></p>
+
+<button id="color">Change Paragraph Font Color!</button>
+<p>
+<a href="https://Deemfirst.com" target="_blank">Deem Website</a>
+</p>
+<script>
+document.getElementById('color').onclick = changeColor;
+var currentColor = "red";
+
+function changeColor(){
+			if(currentColor == "red"){
+				document.body.style.color = "white";
+				currentColor = "white";
+			} else {
+				document.body.style.color = "red";
+				currentColor = "red";
+			}
+		return currentColor;
+	}
+</script>
+</body>
+</html>
