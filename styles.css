@@ -1,4 +1,4 @@
-/* Reset default browser styles */
+/* Reset default browser Shtuff */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -19,7 +19,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
     vertical-align: baseline;
 }
 
-/* Global Styles */
+/* Global Everythin */
 body {
     font-family: Arial, sans-serif;
     background-image: url('bckg.jpg'); /* Background image */
@@ -30,7 +30,7 @@ body {
     padding: 0; /* Remove default padding */
 }
 
-/* Topbar styles */
+/* Topbar-y stuff */
 .topbar {
     height: 90px;
     background-color: #000000; /* Black background */
@@ -53,7 +53,7 @@ body {
     margin-right: 20px; /* Add spacing between logo and other content */
 }
 
-/* Form styles */
+/* Form Shtuff */
 form {
     max-width: 400px; /* Adjust as needed */
     margin: 20px auto; /* Center the form horizontally */
@@ -95,10 +95,10 @@ form button:hover {
     background-color: #970000; /* Darker color on hover */
 }
 
-/* Login button */
+/* Login Shtuff */
 .login-btn {
     padding: 10px 20px;
-    background-color: #333333;
+    background-color: #000000;
     color: #ffffff;
     border: none;
     border-radius: 5px;
@@ -107,10 +107,10 @@ form button:hover {
 }
 
 .login-btn:hover {
-    background-color: #000000; /* Darker color on hover */
+    background-color: #333333; /* Darker color on hover */
 }
 
-/* Responsive Styles */
+/* Responsive Shtuff */
 @media screen and (max-width: 768px) {
     form {
         width: 80%; /* Adjust form width for smaller screens */
