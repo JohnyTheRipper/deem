@@ -1,61 +1,61 @@
 /* Your CSS styles go here */
+
+/* Set default font family and background color for the entire document */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #f0f0f0; /* Light grey background */
 }
 
+/* Style for heading level 1 */
 h1 {
-    color: #333;
+    color: #333; /* Dark grey color */
 }
 
 /* Style for form container */
 .form-container {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+    display: flex; /* Use flexbox layout */
+    justify-content: space-between; /* Distribute space between items */
+    align-items: center; /* Align items vertically */
 }
 
 /* Style for form inputs */
 .form-input {
-	margin-right: 10px; /* Adjust spacing between fields */
+    margin-right: 10px; /* Adjust spacing between fields */
 }
 
 /* Style for labels */
 label {
-	display: inline-block;
-	width: 200px; /* Adjust the width as needed */
-	text-align: right; /* Align the text to the right for better readability */
+    display: inline-block; /* Make labels behave as block-level elements */
+    width: 200px; /* Set fixed width for better alignment */
+    text-align: right; /* Align text to the right for better readability */
 }
 
+/* Style for text inputs and date inputs */
 input[type="text"],
 input[type="date"] {
-	width: 200px; /* Adjust the width as needed */
+    width: 200px; /* Adjust width as needed */
 }
 
+/* Style for light grey italic text */
 .light-grey-italic {
-	color: #888; /* Light grey color */
-	font-style: italic; /* Italic font */
+    color: #888; /* Light grey color */
+    font-style: italic; /* Italic font */
 }
 
+/* Style for readonly text inputs */
 input[readonly] {
-	border: none;
-	background-color: transparent;
-	outline: none; /* Remove focus border */
-	color: #888; /* Light grey color */
-	font-style: italic; /* Italic font */	
+    border: none; /* Remove border */
+    background-color: transparent; /* Make background transparent */
+    outline: none; /* Remove focus border */
+    color: #888; /* Light grey color */
+    font-style: italic; /* Italic font */
 }
 
+/* Style for readonly textareas */
 textarea[readonly] {
-	border: none;
-	background-color: transparent;
-	outline: none; /* Remove focus border */
-	color: #888; /* Light grey color */
-	font-style: italic; /* Italic font */
+    border: none; /* Remove border */
+    background-color: transparent; /* Make background transparent */
+    outline: none; /* Remove focus border */
+    color: #888; /* Light grey color */
+    font-style: italic; /* Italic font */
 }
-
-		
-		
-		
-
-
-

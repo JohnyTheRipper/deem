@@ -1,4 +1,4 @@
-/* Reset default browser Shtuff */
+/* Reset default browser styles */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -8,19 +8,23 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td {
+    /* Reset margins, paddings, borders, and outlines */
     margin: 0;
     padding: 0;
     border: 0;
     outline: 0;
+    /* Inherit font properties */
     font-weight: inherit;
     font-style: inherit;
     font-size: 100%;
     font-family: inherit;
+    /* Align baseline */
     vertical-align: baseline;
 }
 
-/* Global Everythin */
+/* Global styles */
 body {
+    /* Set default font family and background */
     font-family: Arial, sans-serif;
     background-image: url('bckg.jpg'); /* Background image */
     background-repeat: repeat; /* Repeat background */
@@ -30,7 +34,7 @@ body {
     padding: 0; /* Remove default padding */
 }
 
-/* Topbar-y stuff */
+/* Topbar styles */
 .topbar {
     height: 90px;
     background-color: #000000; /* Black background */
@@ -46,14 +50,14 @@ body {
     margin-right: auto; /* Push logo to the far left */
 }
 
-/* Header image */
+/* Header image styles */
 #header-img {
     width: auto; /* Adjust as needed */
     height: 50px; /* Adjust as needed */
     margin-right: 20px; /* Add spacing between logo and other content */
 }
 
-/* Form Shtuff */
+/* Form styles */
 form {
     max-width: 400px; /* Adjust as needed */
     margin: 20px auto; /* Center the form horizontally */
@@ -63,12 +67,14 @@ form {
     background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
 }
 
+/* Label styles */
 form label {
     display: block;
     margin-bottom: 5px;
     color: #ffffff; /* Label text color */
 }
 
+/* Input styles */
 form input[type="text"] {
     width: 100%;
     padding: 10px;
@@ -80,10 +86,11 @@ form input[type="text"] {
     color: #ffffff; /* Input field text color */
 }
 
+/* Button styles */
 form button {
     width: 100%;
     padding: 10px;
-    background-color: #c10000; /* Adjust button color */
+    background-color: #c10000; /* Button color */
     color: #ffffff;
     border: none;
     border-radius: 5px;
@@ -92,11 +99,12 @@ form button {
     font-size: 20px;
 }
 
+/* Button hover styles */
 form button:hover {
     background-color: #970000; /* Darker color on hover */
 }
 
-/* Login Shtuff */
+/* Login button styles */
 .login-btn {
     padding: 10px 20px;
     background-color: #000000;
@@ -108,11 +116,12 @@ form button:hover {
     font-size: 20px;
 }
 
+/* Login button hover styles */
 .login-btn:hover {
     background-color: #333333; /* Darker color on hover */
 }
 
-/* Responsive Shtuff */
+/* Responsive styles */
 @media screen and (max-width: 768px) {
     form {
         width: 80%; /* Adjust form width for smaller screens */
