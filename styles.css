@@ -22,27 +22,38 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 /* Global Styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #ffffff;
-    color: #000000;
+    background-image: url('bckg.jpg'); /* Background image */
+    background-repeat: repeat; /* Repeat background */
+    color: #ffffff; /* Text color */
     line-height: 1.6;
 }
 
-/* Center align elements */
-.center {
-    text-align: center;
+/* Topbar styles */
+.topbar {
+    height: 90px;
+    background-color: #000000; /* Black background */
+    color: #ffffff; /* White text color */
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+/* Logo styles */
+.logo {
+    margin-right: auto; /* Push logo to the far left */
 }
 
 /* Header image */
 #header-img {
-    width: 100%; /* Adjust as needed */
-    height: auto; /* Maintain aspect ratio */
-    margin-bottom: 20px;
+    width: auto; /* Adjust as needed */
+    height: 50px; /* Adjust as needed */
+    margin-right: 20px; /* Add spacing between logo and other content */
 }
 
 /* Form styles */
 form {
     max-width: 400px; /* Adjust as needed */
-    margin: 0 auto; /* Center the form */
+    margin: 20px auto; /* Center the form */
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -65,7 +76,7 @@ form input[type="text"] {
 form button {
     width: 100%;
     padding: 10px;
-    background-color: #007bff; /* Adjust button color */
+    background-color: #c10000; /* Adjust button color */
     color: #ffffff;
     border: none;
     border-radius: 5px;
@@ -74,7 +85,7 @@ form button {
 }
 
 form button:hover {
-    background-color: #0056b3; /* Darker color on hover */
+    background-color: #970000; /* Darker color on hover */
 }
 
 /* Responsive Styles */
