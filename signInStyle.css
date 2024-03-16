@@ -1,0 +1,49 @@
+form {
+  margin: 0 auto;
+  width: 400px;
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+  text-align: left;
+}
+p {
+  margin: 0 auto;
+  width: 400px;
+}
+input:focus,
+textarea:focus {
+  border-color: #000;
+}
+.embc {
+	postition: relative;
+	padding-bottom: 0%;
+	height: 0;
+	overflow: hidden;
+	max-width: 100%;
+}
+embc iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	Height: 100%;
+}
+.fframe {
+	position: center;
+	text-align: center;
+	color: #333;
+}
+.bbox {
+	position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+	float:left;
+	width: 33.33333333%;
+	color: #333;
+
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
