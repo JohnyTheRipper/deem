@@ -74,6 +74,10 @@ form label {
     color: #ffffff; /* Label text color */
 }
 
+.h2 {
+    text-align: center;
+}
+
 /* Input styles */
 form input[type="text"] {
     width: 100%;
