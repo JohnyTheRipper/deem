@@ -45,27 +45,6 @@ body {
     border-bottom: 10px solid #c10000; /* Red bottom border */
 }
 
-.topbar-right {
- flex: 1;
- display: flex;
- justify-content: flex-end;
-}
-
-.topbar-right ul {
- list-style-type: none;
- margin: 0;
- padding: 0;
-}
-
-.topbar-right li {
- margin-left: 30px;
-}
-
-.topbar-right a {
- color: #fff;
- text-decoration: none;
-}
-
 /* Logo styles */
 .logo {
     margin-right: auto; /* Push logo to the far left */
